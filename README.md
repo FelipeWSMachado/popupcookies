@@ -136,7 +136,8 @@ Popup para controle de cookies
         "&cookies=" +
         cookies +
         "&token=" +
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXByZXNhIjoiNjA5M2VkZjkyMWY0NTc1ZGVjZjcxYmNjIiwibmFtZSI6IkxFVkVUIiwiaWF0IjoxNjMyOTE1ODkxfQ.QkrYKuZNIRN4TBi3NOV9pFxV8gTzUIzc1d_F1tqtoYA"
+        <!--COLE SEU TOKEN AQUI -->
+        ""
     );
     const cookiesAll = document.getElementById("AllCookies");
     cookiesAll.style.visibility = "hidden";
