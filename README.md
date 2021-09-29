@@ -6,9 +6,8 @@ Popup para controle de cookies
 ## Como usar
 
 1. Copie as tags de SCRIPT e LINK e cole no HEAD do arquivo raiz do site (Ex.: index.html ou .php). 
-2. Se o site usar BOOTSTRAP, substitua a tag pela referente mostrada abaixo para atualizar os links.
+2. Importe os scripts necessarios para que o BOOTSTRAP funcione, caso seu site já utilize, substitua a tag pela referente mostrada abaixo para atualizar os links.
 ```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
   rel="stylesheet"
@@ -20,6 +19,11 @@ Popup para controle de cookies
   integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
   crossorigin="anonymous"
 ></script>
+```
+3. Agora, copie as funções para o funcionamento do popup. 
+
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   let ipCliente;
   let user_data;
@@ -140,7 +144,7 @@ Popup para controle de cookies
 </script>
  ````
 <br />
-3. Por final, cole a DIV responsável por exibir o popup  dentro do body do arquivo.
+3. Por final, cole a DIV responsável por exibir o popup  dentro do BODY do arquivo.
 
 ```
 <div
